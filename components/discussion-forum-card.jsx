@@ -21,9 +21,9 @@ const DiscussionForumCard = ({
             width={80}
             height={80}
             alt={lname}
-            className="rounded-[100%] bg-gray-400 animate-pulse w-[50px] h-[50px]"
+            className="rounded-[100%] bg-gray-400  w-[50px] h-[50px]"
           />
-          <span className='text-sm sm:text-base'>
+          <span className="text-sm sm:text-base">
             {fname} {lname}
           </span>
           <span className="text-sm text-white bg-blue-900 px-2 py-1 sm:px-4 sm:py-1 rounded-2xl">
@@ -32,7 +32,9 @@ const DiscussionForumCard = ({
         </div>
         <span className="text-blue-900 text-sm">{timePosted}</span>
       </div>
-      <p className="sm:w-3/4 w-full mx-auto text-sm sm:text-base">{userInput}</p>
+      <p className="sm:w-3/4 w-full mx-auto text-sm sm:text-base">
+        {userInput}
+      </p>
       <div className="flex w-full sm:w-3/4 text-sm sm:text-base mx-auto justify-between">
         <span className="flex gap-x-2 hover:bg-gray-100 cursor-pointer p-2 rounded-md">
           <Heart />
@@ -44,7 +46,7 @@ const DiscussionForumCard = ({
         </span>
         <span className="flex gap-x-2 hover:bg-gray-100 cursor-pointer p-2 rounded-md">
           <MessageSquare />
-          {numOfComments} <span className="hidden sm:block">comments</span> 
+          {numOfComments} <span className="hidden sm:block">comments</span>
         </span>
         <span className="flex gap-x-2 hover:bg-gray-100 cursor-pointer p-2 rounded-md">
           <Share2 />
