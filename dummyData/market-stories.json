@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "headline": "the coldest sunset",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSoPs30FDSeCC9F6Cl-LBvV52umcN6KpNn7w&usqp=CAU",
+        "desc":"flex min-h-screen flex-col items-center justify-between p-24flex min-h-screen flex-col items-center justify-between p-24flex min-h-screen flex-col items-center justify-between p-24flex min-h-screen flex-col items-center justify-between p-24"
+    },
+    {
+        "id": 2,
+        "headline": "the coldest sunset",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLYCO-fS7fHcD8bfuKrNYUV3yilzNyLYB7Xg&usqp=CAU",
+        "desc":"flex min-h-screen flex-col items-center justify-between p-24flex min-h-screen flex-col items-center justify-between p-24flex min-h-screen flex-col items-center justify-between p-24"
+    },
+    {
+        "id": 3,
+        "headline": "the coldest sunset",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMX_FwFlupi3jvMUIYQG6yZgSf40-98pMwlg&usqp=CAU",
+        "desc":"flex min-h-screen flex-col items-center justify-between p-24flex min-h-screen flex-col items-center justify-between p-24flex min-h-screen flex-col items-center justify-between p-24"
+    }
+]

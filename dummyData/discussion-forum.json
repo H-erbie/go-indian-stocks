@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "fname": "Gina",
+        "lname":"Khan",
+        "sector": "sector 2",
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThaSplnkeSQyQLhPgJFwc1iCmVR-5O5C36yQ&usqp=CAU",
+        "userInput": "flex min-h-screen flex-col items-center justify-between flex min-h-screen flex-col items-center justify-between ",
+        "timePosted": "3 mins ago",
+        "numOfLikes":"3K",
+        "numOfViews":"11.5K",
+        "numOfComments":"1K"
+    },
+    {
+        "id": 2,
+        "fname": "Baldev",
+        "lname":"Karim",
+        "sector": "sector 2",
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyCUe9wnnxcH6NBN-4j1oDzYPgBcEKdJgj6A&usqp=CAU",
+        "userInput": "flex min-h-screen flex-col items-center justify-between flex min-h-screen flex-col items-center justify-between flex min-h-screen flex-col items-center justify-between ",
+        "timePosted":"1 hr ago",
+        "numOfLikes":"1K",
+        "numOfViews":"2K",
+        "numOfComments":"5K"
+    },
+    {
+        "id": 3,
+        "fname": "Herbie",
+        "lname":"Kojo",
+        "sector": "sector 3",
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThaSplnkeSQyQLhPgJFwc1iCmVR-5O5C36yQ&usqp=CAU",
+        "userInput": "flex min-h-screen flex-col items-center justify-between flex min-h-screen flex-col items-center justify-between flex min-h-screen flex-col items-center justify-between ",
+        "timePosted":"3 days ago",
+        "numOfLikes":"300K",
+        "numOfViews":"2M",
+        "numOfComments":"8K"
+    },
+    {
+        "id": 4,
+        "fname": "Bel",
+        "lname":"Brago",
+        "sector": "sector 4",
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyCUe9wnnxcH6NBN-4j1oDzYPgBcEKdJgj6A&usqp=CAU",
+        "userInput": "flex min-h-screen flex-col items-center justify-between flex min-h-screen flex-col items-center justify-between flex min-h-screen flex-col items-center justify-between ",
+        "timePosted":"1 wk ago",
+        "numOfLikes":"5M",
+        "numOfViews":"1.2B",
+        "numOfComments":"100K"
+    }
+]
