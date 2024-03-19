@@ -13,4 +13,4 @@ const MarketStoryCard = ({id, thumbnail,headline, description }) => {
   )
 }
 
-export default MarketStoryCard
+export default MarketStoryCard  

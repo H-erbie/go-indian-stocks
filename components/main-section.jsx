@@ -9,7 +9,7 @@ const MainSection = () => {
     const [activeTab, setActiveTab] = useState("discussion forum");
 
   return (
-    <div className="w-full h-screen overflow-y-scroll ">
+    <div className="w-full pt-4 h-screen overflow-y-scroll ">
         <Tab activeTab={activeTab} setActiveTab={setActiveTab}/>
         <div className="w-full flex ">
         <DiscussionForum activeTab={activeTab}/>
