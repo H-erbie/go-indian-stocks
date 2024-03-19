@@ -21,7 +21,7 @@ const DiscussionForumCard = ({
             width={80}
             height={80}
             alt={lname}
-            className="rounded-[100%] w-[50px] h-[50px]"
+            className="rounded-[100%] bg-gray-400 animate-pulse w-[50px] h-[50px]"
           />
           <span className='text-sm sm:text-base'>
             {fname} {lname}

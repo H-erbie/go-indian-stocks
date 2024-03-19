@@ -1,5 +1,4 @@
-"use client";
-import React, { Suspense } from "react";
+import React from "react";
 import discussionForumData from "@/dummyData/discussion-forum";
 import DiscussionForumCard from "./discussion-forum-card";
 const DiscussionForum = ({ activeTab }) => {
@@ -28,24 +27,18 @@ const DiscussionForum = ({ activeTab }) => {
             numOfComments,
           } = forum;
           return (
-            <Suspense
+            <DiscussionForumCard
               key={id}
-              fallback={
-                <div className="w-full h-[186px] bg-gray-400 animate-pulse rounded-lg"></div>
-              }
-            >
-              <DiscussionForumCard
-                avatar={avatar}
-                fname={fname}
-                lname={lname}
-                sector={sector}
-                userInput={userInput}
-                timePosted={timePosted}
-                numOfLikes={numOfLikes}
-                numOfViews={numOfViews}
-                numOfComments={numOfComments}
-              />
-            </Suspense>
+              avatar={avatar}
+              fname={fname}
+              lname={lname}
+              sector={sector}
+              userInput={userInput}
+              timePosted={timePosted}
+              numOfLikes={numOfLikes}
+              numOfViews={numOfViews}
+              numOfComments={numOfComments}
+            />
           );
         })}
       </article>
